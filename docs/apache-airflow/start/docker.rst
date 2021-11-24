@@ -251,8 +251,8 @@ The default account has the login ``airflow`` and the password ``airflow``.
 Sending requests to the REST API
 --------------------------------
 
-`Basic username password authentication <https://tools.ietf.org/html/rfc7617
-https://en.wikipedia.org/wiki/Basic_access_authentication>`_ is currently
+`Basic username password authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>`_
+(`RFC 7617 <https://tools.ietf.org/html/rfc7617>`_) is currently
 supported for the REST API, which means you can use common tools to send requests to the API.
 
 The webserver is available at: ``http://localhost:8080``.
